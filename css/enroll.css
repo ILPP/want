@@ -1,0 +1,101 @@
+/*注册*/
+html,body,.wrap {
+    position: relative;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+    background: #f8f8f8;
+}
+.wrap .photo {
+    height: 1.95rem;
+    margin-top: 0.43rem;
+}
+.wrap .photo img {
+    display: block;
+    width: 25.58%;
+    height: 1.66rem;
+    margin: 0 auto;
+}
+/*手机号、密码输入*/
+.wrap form {
+    height: 3.1rem;
+}
+.wrap form .input {
+    position: relative;
+    overflow: hidden;
+    width: 88.12%;
+    height: 0.91rem;
+    padding: 0 5.94%;
+    margin: 0 auto; 
+    background: #fff;
+}
+.wrap form .input span {
+    display: none;
+    position: absolute;
+    right: 6%;
+    top: 0.22rem;
+    width: 7%;
+    height: 0.5rem;
+    background: url("../images/no.png") no-repeat;
+    background-size: 100%;
+}
+.wrap form .input input {
+    float: left;
+    width: 87.59%;
+    height: 0.9rem;
+    padding-left: 12.41%;
+    font-size: 0.3rem;
+    color: #aeaeae;
+    border: none;
+    outline: none;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.wrap form .one {
+    border-top: 0.01rem solid #d2d2d2;
+}
+.wrap form .two {
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.wrap form .one input {
+    background: left center url("../images/rgt_userg.png") no-repeat;
+    background-size: 6%;
+}
+.wrap form .two input {
+    background: 0.75% center url("../images/user_sf_2.png") no-repeat;
+    background-size: 5%;
+}
+/*点击下一步*/
+.wrap .enroll {
+    height: 0.88rem;
+    margin-top: 0.4rem;
+}
+.wrap .enroll input {
+    display: block;
+    width: 93.75%;
+    height: 0.88rem;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-size: 0.34rem;
+    color: #fff;
+    border-radius: 0.1rem;
+    background: #e24b33;
+}
+
+.wrap hr {
+    margin: 0.4rem 0 0.28rem;
+    color: #d2d2d2;
+}
+.wrap p {
+    margin: 0 0.18rem;
+    font-size: 0.26rem;
+    color: #7c7c7c;
+    line-height: 0.42rem;
+}
+.wrap a {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #373737;
+    text-decoration: none;
+}

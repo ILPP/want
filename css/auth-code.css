@@ -1,0 +1,84 @@
+@charset 'utf-8';
+body, html {
+    width: 100%;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+}
+.wrap {
+    width: 100%;
+    padding-top: 0.75rem;
+}
+/*发送验证码*/
+.send p {
+    width: 100%;
+    height: 0.54rem;
+    line-height: 0.54rem;
+    font-size: 0.26rem;
+    text-align: center;
+    color: #7c7c7c;
+}
+/*验证码框*/
+.code {
+    width: 100%;
+    height: 2.36rem;
+    margin-top: 0.37rem;
+}
+.text {
+    float: left;
+    width: 70%;
+    height: 0.3rem;
+    padding: 0.3rem 0;
+    margin-left: 3.44%;
+    line-height: 0.3rem;
+    font-size: 0.3rem;
+    text-indent: 0.4em;
+    color: #7c7c7c;
+    border: none;
+    box-shadow: 0 0 0 1px #d2d2d2 inset;
+    border-radius: 5px;
+}
+/*重新发送验证码*/
+.code span {
+    float: left;
+    width: 21.72%;
+    height: 0.9rem;
+    margin-left: 1.41%;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.24rem;
+    color: #7c7c7c;
+    background-color: #d2d2d2;
+}
+.code .tit2, .code .tit3 {
+    display: none;
+    height: 0.79rem;
+    padding-top: 0.11rem;
+    line-height: 0.34rem;
+}
+/*按钮*/
+.btn {
+    float: left;
+    width: 93.13%;
+    height: 0.88rem;
+    margin: 0.58rem 0 0 3.44%;
+    border: none;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.34rem;
+    color: #fff;
+    background-color: #e24b33;
+}
+/*验证成功*/
+.auth {
+    width: 100%;
+    height: 2.95rem;
+    padding-top: 0.3rem;
+    margin-top: 0.55rem;
+    box-shadow: 0 2px 0 0 #d2d2d2 inset;
+}
+.auth p {
+    margin-left: 3.44%;
+    line-height: 0.36rem;
+    font-size: 0.26rem;
+    color: #7c7c7c;
+}

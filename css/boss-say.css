@@ -1,0 +1,167 @@
+/*老板说*/
+html,body,.wrap {
+    position: relative;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+    background: #fff;
+}
+.wrap .tit {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.88rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+    background: #f8f8f8;
+    z-index: 9;
+} 
+.wrap .tit a {
+    float: left;
+    width: 15.63%;
+    height: 0.88rem;
+    padding-left: 5%;
+    margin: 0 8.59% 0 3.13%;
+    font-size: 0.32rem;
+    color: #434343;
+    line-height: 0.88rem;
+    text-decoration: none;
+    background: url("../images/boss_return.png") left center no-repeat;
+    background-size: 17%;
+}
+.wrap .tit h3 {
+    float: left;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+    color: #212121;
+}
+
+.wrap header {
+    position: relative;
+    width: 100%;
+    height: 2.8rem;
+    margin-top: 0.89rem;
+}
+.wrap header .swiper-container {
+    position: relative;
+    width: 100%;
+    height: 2.8rem;
+}
+.wrap header .swiper-container .swiper-slide {
+    display: block;
+}
+.wrap header .swiper-container img:nth-child(1) {
+    display: block;
+    width: 100%;
+    height: 2.8rem;
+}
+.wrap header .swiper-container img:nth-child(2) {
+    position: absolute;
+    left: 4.22%;
+    bottom: 0.58rem;
+    width: 8%;
+    height: 0.57rem;
+}
+.wrap header .nav {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 95.94%;
+    height: 0.5rem;
+    padding: 0 1.56% 0 2.5%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9;
+}
+.wrap header .nav p {
+    float: left;
+    font-size: 0.28rem;
+    color: #fff;
+    line-height: 0.5rem;
+}
+.wrap header .nav span {
+    float: right;
+    width: 8.44%;
+    height: 0.08rem;
+    margin-top: 0.24rem;
+}
+.wrap header .nav span em {
+    float: left;
+    width: 14.81%;
+    height: 0.08rem;
+    margin: 0 9.26%;
+    border-radius: 0.08rem;
+    background: #fff;
+}
+.wrap header .nav span .sel {
+    background: #e84034;
+}
+
+/*内容*/
+.wrap section {
+    width: 100%;
+    margin-top: 0.1rem; 
+    background: #fff;
+}
+.wrap section article {
+    width: 93.75%;
+    height: 3.1rem;
+    margin: 0.15rem auto;
+}
+.wrap section article .title {
+    float: left;
+    width: 100%;
+    height: 0.38rem;
+    margin-bottom: 0.2rem;
+    text-decoration: none;
+    background: url("../images/boss_arrow.png") 98% center no-repeat;
+    background-size: 3%;
+}
+.wrap section article .title h3 {  padding-left: 2.5%;
+    font-size: 0.3rem;
+    color: #000;
+    background: url("../images/boss-tit-bg.png") left center no-repeat;
+}
+.wrap section article .movie {
+    float: left;
+    width: 48.33%;
+    height: 2.4rem;
+}
+.wrap section article .movie dl {
+    width: 100%;
+    height: 2.4rem;
+}
+.wrap section article .movie dl dt {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 1.62rem;
+}
+.wrap section article .movie dl dt img {
+    display: block;
+    width: 100%;
+    height: 1.62rem;
+}
+.wrap section article .movie dl dt span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fff;
+}
+.wrap section article .movie dl dd {
+    float: left;
+    width: 100%;
+    height: 0.65rem;
+    margin-top: 0.12rem;
+}
+.wrap section article .movie dl dd h3 {
+    font-size: 0.28rem;
+    color: #000;
+}
+.wrap section article .movie dl dd p {
+    font-size: 0.26rem;
+    color: #b5b5b5;
+}
+.wrap section article .one {
+    margin-right: 3.33%;
+}

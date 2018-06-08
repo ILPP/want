@@ -1,0 +1,141 @@
+@charset 'utf-8';
+body, html, .wrap {
+    width: 100%;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+}
+@font-face {
+    src: url("../font/华文细黑.ttf");
+}
+/*头部*/
+.head {
+    width: 100%;
+    height: 0.88rem;
+    background-color: #f8f8f8;
+}
+.head a {
+    float: left;
+    height: 100%;
+    padding-left: 0.55rem;
+    margin-right: 23.13%;
+    line-height: 0.88rem;
+    font-size: 0.32rem;
+    color: #434343;
+    background: url(../images/back.png) 0.21rem 0.26rem no-repeat;
+    background-size: 0.21rem 0.36rem;
+}
+/*怎么用*/
+.head h2 {
+    float: left;
+    height: 100%;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+}
+/*各个小标题*/
+.wrap h3 {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    text-indent: 3.59%;
+    background: url(../images/how_next.png) 90.63% 50% no-repeat;
+    background-size: 0.26rem 0.12rem;
+    box-shadow: 0 -1px 0 0 #d2d2d2 inset;
+}
+/*如何成为会员？*/
+.member {
+    display: none;
+    width: 94.38%;
+    height: 3.44rem;
+    padding: 0 2.81% 0;
+    line-height: 0.43rem;
+    font-size: 0.26rem;
+    background-color: #f8f8f8;
+}
+.member strong {
+    float: left;
+    width: 100%;
+    height: 2.40rem;
+    background: url(../images/member.png) 50% 0.28rem no-repeat;
+    background-size: 53.91% 1.90rem;
+}
+/*如何获得优惠？*/
+.reduce {
+    display: none;
+    width: 94.38%;
+    height: 12.20rem;
+    padding: 0 2.81% 0;
+    line-height: 0.40rem;
+    font-size: 0.26rem;
+    background-color: #f8f8f8;
+}
+.reduce strong {
+    float: left;
+    width: 100%;
+    height: 10.28rem;
+    background: url(../images/prefen.png) 50% 0.36rem no-repeat;
+    background-size: 54.22% 9.72rem;
+}
+/*什么是现场抵现金？什么是现场抵产品？什么是消费后领补贴？*/
+.cash, .produce, .allowance {
+    display: none;
+    width: 94.38%;
+    padding: 0.18rem 2.81% 0.28rem;
+    line-height: 0.40rem;
+    font-size: 0.26rem;
+    background-color: #f8f8f8;
+}
+/*什么是预约功能？*/
+.func {
+    display: none;
+    width: 94.38%;
+    height: 4.15rem;
+    padding: 0 2.81% 0;
+    line-height: 0.40rem;
+    font-size: 0.26rem;
+    background-color: #f8f8f8;
+}
+.func strong {
+    float: left;
+    width: 100%;
+    height: 2.58rem;
+    background: url(../images/how_reserve.png) 50% 0.25rem no-repeat;
+    background-size: 54.22% 2rem;
+}
+/*怎样查看消费记录？*/
+.record {
+    display: none;
+    width: 94.38%;
+    height: 3.21rem;
+    padding: 0 2.81% 0;
+    line-height: 0.40rem;
+    font-size: 0.25rem;
+    background-color: #f8f8f8;
+}
+.record strong {
+    float: left;
+    width: 100%;
+    height: 2.51rem;
+    background: url(../images/how_reserve_1.png) 50% 0.25rem no-repeat;
+    background-size: 54.22% 2rem;
+}
+/*温馨提示*/
+.select {
+    color: #e84034;
+}
+.text {
+    display: none;
+    width: 94.38%;
+    padding: 0.24rem 2.81% 0.45rem;
+}
+.text span {
+    float: left;
+    line-height: 0.40rem;
+    font-size: 0.26rem;
+}
+.text .dif {
+    margin-bottom: 0.1rem;
+}
+.text p a, .text p em {
+    color: #e84034;
+}

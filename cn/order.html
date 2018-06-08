@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>预约</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../css/order.css" />
+    <link rel="stylesheet" type="text/css" href="../css/zepto.mtimer.css" />
+   <!--  <script src="../js/jquery-1.11.3.min.js" type="text/javascript"></script> -->
+    <script type="text/javascript" src="../js/zepto.js"></script>
+    <!-- <script type="text/javascript" src="../js/event.js"></script>
+    <script type="text/javascript" src="../js/touch.js"></script>
+    <script type="text/javascript" src="../js/fx.js"></script> -->
+    <script type="text/javascript" src="../js/zepto.mtimer.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header class="head">
+            <a href="sj-show.html">返回</a>
+            <h2>我要预约</h2>
+        </header>
+        <div class="data">
+            <input type="text" class="date" id="picktime" placeholder="选择日期"/>
+            <div class="callme">
+                <span>联系我</span>
+                <span>不要联系我</span>
+            </div>
+        </div>
+        <input type="button" value="提交预约" class="subline" />
+    </div>
+</body>
+<script type="text/javascript">
+$(function(){
+    $('#picktime').mtimer();    
+});
+$(".callme span").on("touchstart",function(){
+        $(this).addClass('lianx');
+        $(this).css({
+            "background":"url(../images/greeny.png) no-repeat center  left",
+            "backgroundSize":" 0.35rem 0.35rem"
+        }).siblings('span').removeClass('lainx').css({
+            "background":"url(../images/sflx.png) no-repeat center  left",
+            "backgroundSize":" 0.35rem 0.35rem"
+    })
+});
+// var bool = true;
+$(".subline").on("touchstart",function(){
+    console.log($(".date").val());
+})
+// 提交预约
+var ls = window.localStorage;
+$(".subline").on("touchstart", function() {
+    var con = $(".data input").val();
+    if(con) {
+        if(ls.getItem("ingo")) {
+            con = ls.getItem("ingo") + "," + con;
+        }
+        ls.setItem("ingo", con);
+        ls.setItem("cross", 1);
+        window.location.href = "../cn/appoint.html";
+    } else {
+        con = "";
+    }
+});
+$("#picktime").focus(function(){
+        document.activeElement.blur();
+    });
+</script>
+</html>

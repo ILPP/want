@@ -1,0 +1,160 @@
+/*会员说*/
+html,body,.wrap {
+    position: relative;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+    /*background: #f8f8f8;*/
+}
+.wrap header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.88rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+    background: #f8f8f8;
+    z-index: 9;
+}
+.wrap header a {
+    float: left;
+    width: 10%;
+    height: 0.88rem;
+    padding-left: 5%;
+    margin: 0 8.59% 0 3.13%;
+    font-size: 0.32rem;
+    color: #434343;
+    line-height: 0.88rem;
+    text-decoration: none;
+    background: url("../images/boss_return.png") left center no-repeat;
+    background-size: 17%;
+}
+.wrap header span {
+    float: left;
+    width: 33.75%;
+    height: 0.87rem;
+    padding-right: 5%;
+    line-height: 0.87rem;
+    font-size: 0.38rem;
+    color: #22292c;
+    text-align: right;
+    background: url("../images/members-say-small.png") right center no-repeat;
+    background-size: 10%;
+}
+.wrap header img {
+    float: right;
+    width: 5.31%;
+    height: 0.34rem;
+    margin: 0.24rem 3% 0 0;
+}
+/*内容*/
+.wrap section {
+    float: left;
+    width: 100%;
+    /*height: 100%;*/
+    margin-top: 0.89rem;
+}
+.wrap section .con {
+    float: left;
+    width: 96.87%;
+    
+    padding-left: 3.13%;
+}
+.wrap section .con .sel {
+    display: none;
+}
+.wrap section .con div {
+    float: left;
+    width: 100%;
+    height: 1.38rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.wrap section .con div dl {
+    width: 100%;
+    height: 1.16rem;
+    padding-top: 0.22rem;
+}
+.wrap section .con div dl dt {
+    float: left;
+    width: 13%;
+    height: 0.94rem;
+    padding-right: 2.26%;
+}
+.wrap section .con div dl dt img {
+    display: block;
+    width: 100%;
+    height: 0.94rem;
+}
+.wrap section .con div dl dd {
+    float: left;
+    width: 80%;
+    height: 0.94rem;
+}
+.wrap section .con div dl dd p:nth-child(1) {
+    float: left;
+    width: 100%;
+    line-height: 0.5rem;
+}
+.wrap section .con div dl dd p strong {
+    float: left;
+    font-size: 0.36rem;
+    color: #212121;
+}
+.wrap section .con div dl dd p span {
+    float: right;
+    font-size: 0.26rem;
+    color: #807f7f;
+}
+.wrap section .con div dl dd p:nth-child(2) {
+    float: left;
+    width: 91.57%;
+    padding-left: 8.43%;
+    font-size: 0.28rem;
+    color: #4f4f4f;
+    line-height: 0.55rem;
+    background: url("../images/member_exchange.png") left center no-repeat;
+    background-size: 7%;
+}
+
+.wrap .block {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0.89rem;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.wrap .sels {
+    display: block;
+}
+.wrap .block .drop-down { 
+    width: 39.88%;
+    height: 3.95rem;
+    padding: 0.18rem 6.06% 0;
+    margin: -0.16rem auto 0;
+    background: url("../images/member_bg_down.png") no-repeat;
+    background-size: 100%;
+}
+.wrap .block .drop-down .outer {
+    overflow: auto;
+    width: 100%;
+    height: 3.77rem;
+    margin-top: 0.18rem;
+}
+.wrap .block .drop-down .outer .con {
+    width: 100%;
+}
+.wrap .block .drop-down .outer .con span {
+    float: left;
+    width: 100%;
+    height: 0.72rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+    font-size: 0.3rem;
+    color: #000;
+    line-height: 0.72rem;
+    text-decoration: none;
+}
+.wrap .block .drop-down .outer .con .sel {
+    color: #e24b33;
+    border-bottom: 0.01rem solid #e24b33;
+}

@@ -1,0 +1,139 @@
+/*登录*/
+html,body,.wrap {
+    position: relative;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+    background: #f8f8f8;
+}
+.wrap .photo {
+    float: left;
+    width: 100%;
+    height: 2.04rem;
+    margin-top: 0.55rem;
+}
+.wrap .photo img {
+    display: block;
+    width: 25.58%;
+    height: 1.66rem;
+    margin: 0 auto;
+}
+/*手机号、密码输入*/
+.wrap form {
+    float: left;
+    width: 100%;
+    /*height: 3.1rem;*/
+}
+.wrap form .input {
+    overflow: hidden;
+    width: 88.12%;
+    height: 1.78rem;
+    padding: 0 5.94%;
+    margin: 0 auto;
+    border-top: 0.01rem solid #d2d2d2;
+    border-bottom: 0.01rem solid #d2d2d2;
+    background: #fff;
+}
+.wrap form .input input {
+    float: left;
+    width: 87.59%;
+    height: 0.89rem;
+    padding-left: 12.41%;
+    font-size: 0.3rem;
+    color: #aeaeae;
+    border: none;
+    outline: none;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.wrap form .input input:nth-of-type(1) {
+    background: left center url("../images/rgt_userg.png") no-repeat;
+    background-size: 6%;
+}
+.wrap form .input input:nth-of-type(2) {
+    background: 0.75% center url("../images/rgt_pswg.png") no-repeat;
+    background-size: 5%;
+}
+/*点击登录*/
+.wrap .enter {
+    height: 0.88rem;
+    margin-top: 0.4rem;
+}
+.wrap .enter input {
+    display: block;
+    width: 93.75%;
+    height: 0.88rem;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    font-size: 0.34rem;
+    color: #fff;
+    border-radius: 0.1rem;
+    background: #e24b33;
+}
+/*注册账号和忘记密码*/
+.foot {
+    float: left;
+    width: 100%;  
+    margin-top: 0.5rem;
+}
+.foot div {
+    width: 57.81%;
+    height: 0.36rem;
+    margin: 0 auto;
+}
+.foot div a {
+    float: left;
+    width: 49.73%;
+    height: 0.36rem;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.36rem;
+    color: #5f5f5f;
+    text-decoration: none;
+}
+.foot a:nth-of-type(1) {
+    border-right: 0.02rem solid #d2d2d2;
+}
+/*错误提示*/
+.wrap .blocks {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.wrap .pwd-false {
+    width: 55.63%;
+    height: 2.14rem;
+    margin: 50% auto 0;
+    background: url("../images/pwd_false.png") no-repeat;
+    background-size: 100%;
+}
+/*.wrap .tel-false {
+    display: none;
+    position: absolute;
+    left: 22%;
+    top: 30%;
+    width: 55.63%;
+    height: 2.14rem;
+    background: url("../images/tel_false.png") no-repeat;
+    background-size: 100%;
+}*/
+.wrap .block {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.wrap .empty {
+    width: 55.63%;
+    height: 2.14rem;
+    margin: 50% auto 0;
+    background: url("../images/tel_pwd_false.png") no-repeat;
+    background-size: 100%;
+}
+

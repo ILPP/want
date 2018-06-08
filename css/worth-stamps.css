@@ -1,0 +1,152 @@
+@charset 'utf-8';
+body, html, .wrap {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+}
+.head {
+    /*position: fixed;
+    top: 0;*/
+    width: 100%;
+    height: 0.88rem;
+    background-color: #f8f8f8;
+}
+.head a {
+    float: left;
+    height: 100%;
+    padding-left: 0.55rem;
+    margin-right: 23.13%;
+    line-height: 0.88rem;
+    font-size: 0.32rem;
+    color: #434343;
+    background: url(../images/back.png) 0.21rem 0.26rem no-repeat;
+    background-size: 0.21rem 0.36rem;
+}
+/*怎么用*/
+.head h2 {
+    float: left;
+    height: 100%;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+}
+.inner {
+    width: 92.82%;
+    height: 89.42%;
+    margin: 0 auto;
+}
+/*验证成功内容*/
+.success {
+    width: 82.83%;
+    height: 1.2rem;
+    padding: 0.32rem 0 0 17.17%;
+    margin-bottom: 0.34rem;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    background: url(../images/1.png) 1.35% 0.34rem no-repeat;
+    background-size: 0.7rem 0.7rem;
+}
+/*领用劵内容*/
+.voucher {
+    position: relative;
+    width: 100%;
+    height: 3.64rem;
+    margin-bottom: 0.77rem; 
+    background: url(../images/2.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+/*劵的类型*/
+.worth {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 21.5%;
+    height: 0.81rem;
+    padding-top: 0.23rem;
+}
+.worth span {
+    float: left;
+    height: 0.28rem;
+    width: 100%;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.28rem;
+    color: #fff;
+}
+/*号码*/
+.voucher p {
+    width: 100%;
+    height: 0.7rem;
+    margin-bottom: 0.24rem;
+    line-height: 0.7rem;
+    font-size: 0.26rem;
+    text-indent: 1em;
+}
+/*领用劵的钱*/
+.money {
+    height: 1.56rem;
+    padding-left: 20.88%;
+    margin-bottom: 0.28rem;
+}
+.money a {
+    float: left;
+    height: 0.40rem;
+    padding: 0 0.14rem;
+    margin-bottom: 0.14rem;
+    line-height: 0.40rem;
+    font-size: 0.26rem;
+    color: #fff;
+    background-color: #db534b; 
+}
+.money span {
+    float: left;
+    height: 1.02rem;
+    font: bold 1.02rem Microsoft YaHei;
+    line-height: 1.02rem;
+    color: #e24b33;
+}
+.money em {
+    float: left;
+    padding-top: 0.5rem;
+    line-height: 0.42rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #e24b33;
+}
+/*生产日期 持卡人*/
+.day, .people {
+    float: right;
+    width: 96.63%;
+    height: 0.36rem;
+    margin-right: 3.37%;
+    line-height: 0.36rem;
+    text-align: right;
+    font-size: 0.22rem;
+    color: #777777;
+}
+.day em, .people em {
+    font-size: 0.26rem;
+    color: #000;
+}
+.name {
+    letter-spacing: 1em;
+}
+/*消费完后*/
+.show {
+    position: absolute;
+    top: 7rem;
+    width: 100%;
+    height: 1.83rem;
+    padding-top: 0.2rem;
+    box-shadow: 0 -2px 0 0 #d2d2d2;
+}
+.show p {
+    width: 92.81%;
+    margin: 0 auto;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    color: #e84034;
+}
+.show .differ, .show .differ a {
+    color: #7c7c7c;
+}

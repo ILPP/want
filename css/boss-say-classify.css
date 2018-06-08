@@ -1,0 +1,89 @@
+/*老板说企业分类*/
+html,body,.wrap {
+    position: relative;
+    height: 100%;
+    font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+}
+.wrap header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.88rem;
+    border-bottom: 0.01rem solid #d2d2d2;
+    background: #f8f8f8;
+    z-index: 9;
+}
+.wrap header a {
+    float: left;
+    width: 15.63%;
+    height: 0.88rem;
+    padding-left: 5%;
+    margin: 0 8.59% 0 3.13%;
+    font-size: 0.32rem;
+    color: #434343;
+    line-height: 0.88rem;
+    text-decoration: none;
+    background: url("../images/boss_return.png") left center no-repeat;
+    background-size: 17%;
+}
+.wrap header h3 {
+    float: left;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.4rem;
+    color: #212121;
+}
+
+.wrap section {
+    float: left;
+    width: 93.74%;
+    margin-top: 0.89rem;
+    padding: 0 3.13%;
+    background: #fff;
+}
+.wrap section .movie {
+    float: left;
+    width: 48.33%;
+    height: 2.4rem;
+    margin: 0.15rem 0;
+}
+.wrap section .movie dl {
+    width: 100%;
+    height: 2.4rem;
+}
+.wrap section .movie dl dt {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 1.62rem;
+}
+.wrap section .movie dl dt img {
+    display: block;
+    width: 100%;
+    height: 1.62rem;
+}
+.wrap section .movie dl dt span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0.26rem;
+    color: #fff;
+}
+.wrap section .movie dl dd {
+    float: left;
+    width: 100%;
+    height: 0.65rem;
+    margin-top: 0.12rem;
+}
+.wrap section .movie dl dd h3 {
+    font-size: 0.28rem;
+    color: #000;
+}
+.wrap section .movie dl dd p {
+    font-size: 0.26rem;
+    color: #b5b5b5;
+}
+.wrap section .one {
+    margin-right: 3.33%;
+}

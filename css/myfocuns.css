@@ -1,0 +1,176 @@
+/* 
+* @Author: anchen
+* @Date:   2017-10-17 11:15:39
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-10-21 16:18:28
+*/
+html,body{ 
+            width: 100%;
+            overflow:hidden;
+            /*height:100%;*/
+            /*padding-top: 0.33rem;*/
+            /*background-color: #fff;*/
+            font-size: calc(266.67% + 57.3333 * (100vw - 320px) / 320);
+        }
+.head{
+    height:0.88rem;
+    width:100%;
+    background-color: #f8f8f8;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.head h2{
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    background:url("../images/follow_arrowdown.png")no-repeat 65.31% center ;
+    background-size:0.27rem 0.16rem ;
+    color:#22292c;
+}
+.head span{
+    display:inline-block;
+    float:right;
+    margin: -0.68rem 3.13% 0 0;
+    font-size: 0.38rem;
+    color:#22292c;
+}
+.main{
+    width:100%;
+    height:1.27rem;
+}
+
+.main div{
+    position:relative;
+    /*float:right;*/
+    width:98.44%;
+    height:1.78rem;
+    padding:0.1rem 0 0 1.56%;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.main div b{
+    display:block;
+    float:right;
+    position:absolute;
+    top: 0.1rem;
+    right:-22%;
+    width:0;
+    height:1.78rem;
+    font-size: 0.34rem;
+    line-height: 1.54rem;
+    text-align: center;
+    color:#fff;
+    background-color: #e84034;
+}
+.main div strong{
+    float:left;
+    position:absolute;
+    top: 0.1rem;
+    left:-15.63%;
+    /*width:15.63%;*/
+    height:1.54rem;
+    background:url("../images/delete.png")center center no-repeat ;
+    background-size:0.36rem 0.36rem  ;
+}
+.main div img{
+    display:block;
+    float:left;
+    width:24.06%;
+    height:1.54rem;
+    margin-right: 3.13%;
+}
+.main div h3{
+    float:left;
+    width:40.38%;
+    /*height:0.32rem;*/
+    margin-top: 0.14rem;
+    font-size: 0.34rem;
+}
+.main div span{
+    display:block;
+    float:left;
+    width:31.56%;
+    height:0.28rem;
+    margin-top: 0.3rem;
+    padding-left: 0.5rem;
+    font-size: 0.28rem;
+    background:url("../images/include_attention.png")left center no-repeat ;
+    background-size:0.38rem 0.21rem ;
+    color:#939393;
+}
+.main div em{
+    color:#000;
+}
+.main div a {
+    float:right;
+    width:30.94%;
+    height:0.32rem;
+    margin-top: 0.18rem;
+    font-size: 0.28rem;
+    line-height: 0.3rem;
+    background:url("../images/set_arrow.png")no-repeat right 0.06rem;
+    background-size:0.23rem 0.28rem ;
+    color:#0aaf19;
+}
+.main div a em{
+    display:inline-block;
+    width:0.34rem;
+    height:0.3rem;
+    background:url("../images/include_exchange.png")no-repeat center bottom;
+    background-size: 0.34rem 0.3rem;
+}
+/*下拉列表*/
+.con{
+    position:absolute;
+    display:none;
+    top: 0.9rem;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.con .item {
+    position: absolute;
+    top: -0.2rem;
+    left:26.34%;
+    display: block;
+    width: 50%;
+    border: none;
+    z-index: 100;
+}
+/*价格*/
+.con .item strong {
+    float: left;
+    width: 100%;
+    height: 0.17rem;
+    background: url(../images/18.png) center 0 no-repeat;
+    background-size: 12% 100%;
+}
+.item div {
+    float: left;
+    width: 87.32%;
+    padding: 0 6.34% ;
+    background-color: #fff;
+}
+.item div em {
+    float: left;
+    width: 100%;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    font-size: 0.3rem;
+    text-indent:0.5rem;
+    border-bottom: 0.01rem  solid #d2d2d2 ;
+}
+.all{
+    float: left;
+    width: 100%;
+    height: 0.86rem;
+    line-height: 0.86rem;
+    font-size: 0.3rem;
+    text-indent:0.5rem;
+    border-bottom: 0.01rem  solid #d2d2d2 ;
+}
+body .main .block{
+    display:block;
+}
+.main div{
+    display:none;
+}
